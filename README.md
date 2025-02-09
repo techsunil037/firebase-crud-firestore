@@ -2,6 +2,20 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
 
+## Firebase config
+
+Copy your firebase config to ```src/environment/environment.ts```
+
+```bash
+export const environment = {
+  firebaseConfig: {
+    /*
+        COPY YOUR FIREBASE CONFIG HERE
+    */
+  },
+};
+```
+
 ## Development server
 
 To start a local development server, run:
