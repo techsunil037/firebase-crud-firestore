@@ -4,7 +4,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## Firebase config
 
-Copy your firebase config to ```src/environment/environment.ts```
+Copy your firebase config to ```src/environments/environment.ts```
 
 ```bash
 export const environment = {
