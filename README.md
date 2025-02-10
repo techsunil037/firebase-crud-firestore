@@ -2,6 +2,53 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
 
+## Setup Firebase Account
+
+### Navigate to https://console.firebase.google.com/ and click on Create a project
+![alt text](/src/assets/step-0.png)
+
+### Give a name for your project and click on continue
+![alt text](/src/assets/step-1.png)
+
+### On AI assistance for your Firebase project disable Gemini in Firebase
+![alt text](/src/assets/step-2.png)
+
+### On Google Analytics for your Firebase project disable Google Analytics for this project
+![alt text](/src/assets/step-3.png)
+
+### The it will create a firebase project for you
+![alt text](/src/assets/step-4.png)
+
+### Now your firebase project is ready
+![alt text](/src/assets/step-5.png)
+
+### Click on build and choose firestore database
+![alt text](/src/assets/step-6.png)
+
+### Click on Create Database
+![alt text](/src/assets/step-7.png)
+
+### From location choose a location
+![alt text](/src/assets/step-8.png)
+
+### For testing purpose you can choose Start in test mode
+![alt text](/src/assets/step-9.png)
+
+### Click on rules to change the rule
+![alt text](/src/assets/step-10.png)
+
+### Omit the condition to perform always do crud operation
+![alt text](/src/assets/step-11.png)
+
+### Now go on Project settings and choose web app
+![alt text](/src/assets/step-12.png)
+
+### Register app through a app nick name
+![alt text](/src/assets/step-13.png)
+
+### Now you can see firebase config that is what you need in the application
+![alt text](/src/assets/step-14.png)
+
 ## Firebase config
 
 Copy your firebase config to ```src/environments/environment.ts```
